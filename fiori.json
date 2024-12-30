@@ -1,6 +1,6 @@
 [
   {
-    "question": "Which Floorplans are currently available in SAP Fiori elements ?",
+    "question": "Which Floorplans are currently available in SAP Fiori elements?",
     "answers": [
       {
         "text": "List Report",
@@ -373,6 +373,10 @@
       {
         "text": "Table Cards",
         "correct": true
+      },
+      {
+        "text": "List item",
+        "correct": false
       }
     ]
   },
@@ -3843,6 +3847,625 @@
       },
       {
         "text": "Reference the relevant artifacts in the bootstrap of the app.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "When do you use deep insert?",
+    "answers": [
+      {
+        "text": "When working with hierarchical data where the data can only be stored in the full hierarchy.",
+        "correct": true
+      },
+      {
+        "text": "When adding a new entity to an entity set.",
+        "correct": false
+      },
+      {
+        "text": "When working with aggregation binding to update / insert an entity in the bound complex structure.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What type of concurrency control is offered by OData?",
+    "answers": [
+      {
+        "text": "Pessimistic concurrency control",
+        "correct": false
+      },
+      {
+        "text": "Optimistic concurrency control",
+        "correct": true
+      },
+      {
+        "text": "Exclusive concurrency control",
+        "correct": false
+      },
+      {
+        "text": "No concurrency control",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following statements are true with regard to implementing your own renderer?",
+    "answers": [
+      {
+        "text": "Implement a renderer class, derived from sap.ui.core.Renderer, in a separate file.",
+        "correct": true
+      },
+      {
+        "text": "Assign a reference to the renderer property of the UI control.",
+        "correct": true
+      },
+      {
+        "text": "Implement the render function inside the control.",
+        "correct": false
+      },
+      {
+        "text": "Implement the renderer using AMD syntax.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is meant by the phrase SAPU15 supports modification free enhancements?",
+    "answers": [
+      {
+        "text": "SAP provides a service in the cloud to generate an enhanced application using aspect oriented programming.",
+        "correct": false
+      },
+      {
+        "text": " The developer must create a copy of the application that should be enhanced, and the enhancement is done in the copy.",
+        "correct": false
+      },
+      {
+        "text": "The delivered standard application remains unchanged and hence the extension is considered to be modification free.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "In which state are the files in GIT when a remote repository is cloned?",
+    "answers": [
+      {
+        "text": "Tracked and staged",
+        "correct": false
+      },
+      {
+        "text": "Modified and tracked",
+        "correct": false
+      },
+      {
+        "text": "Tracked and unmodified",
+        "correct": true
+      },
+      {
+        "text": "Staged and modified",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which function must be called inside a control renderer to add the control ID to the DOM tree and support event?",
+    "answers": [
+      {
+        "text": "writeControlData",
+        "correct": true
+      },
+      {
+        "text": "writeClasses",
+        "correct": false
+      },
+      {
+        "text": "writelcon",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When you implement a controller extension and you implement the onlnit and onAfterRendering functions in the extension, when are they called?",
+    "answers": [
+      {
+        "text": "Only the functions of the controller extensions are called",
+        "correct": false
+      },
+      {
+        "text": "Before the corresponding functions from the standard controller",
+        "correct": false
+      },
+      {
+        "text": "After the corresponding functions from the standard controller",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following statements are true with respect to QUnit?",
+    "answers": [
+      {
+        "text": "Supports only synchronous testing out of the box",
+        "correct": false
+      },
+      {
+        "text": "Supports asynchronous tests out of the box",
+        "correct": true
+      },
+      {
+        "text": "QUnit is a JavaScript unit and integration test framework",
+        "correct": true
+      },
+      {
+        "text": "Is capable of testing any generic JavaScript code",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "In the Git source code management system, what is executed initially to create the local Git repository in SAP Web IDE?",
+    "answers": [
+      {
+        "text": "Clone",
+        "correct": true
+      },
+      {
+        "text": "Fetch",
+        "correct": false
+      },
+      {
+        "text": "Pull",
+        "correct": false
+      },
+      {
+        "text": "Push",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which UI5 theme is replacing SAP Blue Crystal as the base Fiori theme?",
+    "answers": [
+      {
+        "text": "SAP Belize",
+        "correct": true
+      },
+      {
+        "text": "SAP Corbu",
+        "correct": false
+      },
+      {
+        "text": "SAP High Contrast Black",
+        "correct": false
+      },
+      {
+        "text": "SAP Tradeshow",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What aspects of the runtime environment can be accessed by the Device API of SAPU15?",
+    "answers": [
+      {
+        "text": "Touch specific features",
+        "correct": true
+      },
+      {
+        "text": "Language",
+        "correct": false
+      },
+      {
+        "text": "Orientation Change",
+        "correct": true
+      },
+      {
+        "text": "Operating System",
+        "correct": true
+      },
+      {
+        "text": "Screen Size",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "To what namespace is the ExtensionPoint class assigned?",
+    "answers": [
+      {
+        "text": "sap.ui.extension",
+        "correct": false
+      },
+      {
+        "text": "sap.ui.core.extension",
+        "correct": false
+      },
+      {
+        "text": "sap.m",
+        "correct": false
+      },
+      {
+        "text": "sap.ui.core",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Your customer needs an app that can perform data modifications. Which ODataModel binding mode do you select?",
+    "answers": [
+      {
+        "text": "Two way",
+        "correct": true
+      },
+      {
+        "text": "One way",
+        "correct": false
+      },
+      {
+        "text": "One time",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "You need to explain the core functions of OPA5 for testing SAPUI5 apps. Which test options are offered by OPA5?",
+    "answers": [
+      {
+        "text": "Navigation tests",
+        "correct": true
+      },
+      {
+        "text": "User interaction tests",
+        "correct": true
+      },
+      {
+        "text": "Development tests",
+        "correct": false
+      },
+      {
+        "text": "Load tests",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is an Aggregation?",
+    "answers": [
+      {
+        "text": "A relationship between two controls",
+        "correct": true
+      },
+      {
+        "text": "Is a parent child relationship",
+        "correct": true
+      },
+      {
+        "text": "Is not a parent/ child relationship",
+        "correct": false
+      },
+      {
+        "text": "A relationship between the text field and its label",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which tool do you use to deploy SAP Fiori app developments?",
+    "answers": [
+      {
+        "text": "SAP WEB IDE",
+        "correct": true
+      },
+      {
+        "text": "Eclipse (SAP NetWeaver Developer Studio)",
+        "correct": false
+      },
+      {
+        "text": "Process Modeler",
+        "correct": false
+      },
+      {
+        "text": "Object Navigator",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Your customer needs an app that can perform data modifications. Which ODataModel binding-mode do you select?",
+    "answers": [
+      {
+        "text": "Two-way",
+        "correct": true
+      },
+      {
+        "text": "One-way",
+        "correct": false
+      },
+      {
+        "text": "One-time",
+        "correct": false
+      },
+      {
+        "text": "Three-way",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "You need to maintain the mapping between an app URL and a destination in the SAPUI5 app. Which file do you maintain?",
+    "answers": [
+      {
+        "text": "neo-app.json",
+        "correct": true
+      },
+      {
+        "text": "project.json",
+        "correct": false
+      },
+      {
+        "text": "path.json",
+        "correct": false
+      },
+      {
+        "text": "user-project.json",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which element in the SAPUI5 architecture holds the data in JSON or XML?",
+    "answers": [
+      {
+        "text": "Model",
+        "correct": true
+      },
+      {
+        "text": "Component",
+        "correct": false
+      },
+      {
+        "text": "View",
+        "correct": false
+      },
+      {
+        "text": "Controller",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Your customer wants to extend an SAP Fiori app through a Controller Extension. When can a controller extension lead to a crash?",
+    "answers": [
+      {
+        "text": "If the extension code exists in the extended app but the controller name is changed by an app update.",
+        "correct": true
+      },
+      {
+        "text": "If the extension code exists and is NOT referenced in the original view.",
+        "correct": false
+      },
+      {
+        "text": "If the extension code accesses parts of the original application that were removed.",
+        "correct": false
+      },
+      {
+        "text": "If the original code required to run the application is overwritten.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "In which attribute do you specify the themes for an SAP Fiori app?",
+    "answers": [
+      {
+        "text": "data-sap-ui-theme of <script> tag",
+        "correct": true
+      },
+      {
+        "text": "sap-ui-theme of a <title> tag",
+        "correct": false
+      },
+      {
+        "text": "sap-ui-theme of <body> tag",
+        "correct": false
+      },
+      {
+        "text": "data-sap-ui-theme of the <head> tag",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the name of the aggregation of the sap.m.App control, or more precisely the name of the sap.m.NavContainer control, in which UI controls are aggregated?",
+    "answers": [
+      {
+        "text": "pages",
+        "correct": true
+      },
+      {
+        "text": "fullPages",
+        "correct": false
+      },
+      {
+        "text": "detailsPages",
+        "correct": false
+      },
+      {
+        "text": "masterPages",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is returned by the function createEntry?",
+    "answers": [
+      {
+        "text": "The ID of the newly created entity.",
+        "correct": false
+      },
+      {
+        "text": "A binding context object",
+        "correct": true
+      },
+      {
+        "text": "A newly created object in JSON format",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "hat query option is needed to access the data of an entity in the JSON format?",
+    "answers": [
+      {
+        "text": "format=json",
+        "correct": false
+      },
+      {
+        "text": "$format=json",
+        "correct": true
+      },
+      {
+        "text": "$json",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What method must be implemented on the back end to support deep inserts?",
+    "answers": [
+      {
+        "text": "INSERT_ENTITY_DEEP",
+        "correct": false
+      },
+      {
+        "text": "APPLY_DEEP_ENTITY",
+        "correct": false
+      },
+      {
+        "text": "CREATE_DEEP_ENTITY",
+        "correct": true
+      },
+      {
+        "text": "CREATE_ENTITY_DEEP",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What method is called inside the library.js file?",
+    "answers": [
+      {
+        "text": "sap.ui.getCore(). loadLibrary",
+        "correct": false
+      },
+      {
+        "text": "sap.ui. getCore(). runLibrary",
+        "correct": false
+      },
+      {
+        "text": "sap.ui.getCore().registerLibrary",
+        "correct": false
+      },
+      {
+        "text": " sap.ui.getCore().initLibrary",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following aspects are true for a SAPU15 UI element?",
+    "answers": [
+      {
+        "text": "A UI element has an API",
+        "correct": true
+      },
+      {
+        "text": "A UI element does not have a renderer",
+        "correct": true
+      },
+      {
+        "text": "A UI element has a renderer",
+        "correct": false
+      },
+      {
+        "text": "A UI element can have events",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "How does the OData Model handle XSRF tokens?",
+    "answers": [
+      {
+        "text": "The OData Model does not handle XSRF tokens. The developer must implement token handling.",
+        "correct": false
+      },
+      {
+        "text": "The OData Model fetches the token when reading the metadata and sends the token automatically in each write request header.",
+        "correct": true
+      },
+      {
+        "text": "The OData Model fetches the token for each request and sends the token automatically with each request.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the best approach to showing a UI control on a desktop only, and not on a mobile device?",
+    "answers": [
+      {
+        "text": "Use the Device API to check the environment and call setVisible on the UI control",
+        "correct": false
+      },
+      {
+        "text": "Use the UI control from sap.ui.commons. These UI controls can handle automatically",
+        "correct": false
+      },
+      {
+        "text": "Use the standard CSS class sapUiVisibleOnlyOnDesktop",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which UI annotation is used in the object page to display the object header?",
+    "answers": [
+      {
+        "text": "UI.headerlnfo",
+        "correct": true
+      },
+      {
+        "text": "UI.objectheader",
+        "correct": false
+      },
+      {
+        "text": "UI.headerObject",
+        "correct": false
+      },
+      {
+        "text": "UI.header",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following are the main states of a file in GIT?",
+    "answers": [
+      {
+        "text": "Modified",
+        "correct": true
+      },
+      {
+        "text": "Released",
+        "correct": false
+      },
+      {
+        "text": "Changed",
+        "correct": true
+      },
+      {
+        "text": "Committed",
         "correct": true
       }
     ]
