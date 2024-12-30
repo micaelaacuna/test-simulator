@@ -1,5 +1,266 @@
 [
   {
+    "question": "In the data in the screenshot,you want to display the List of Companies in the Americas region. Which binding option do you use for the X, Y, and Z values in the view?",
+    "image": "./screen1.png",
+    "answers": [
+      {
+        "text": "X:/regions/0/companies Y: companies/0/name Z: companies/0/city",
+        "correct": false
+      },
+      {
+        "text": "X:/regions/0/companies Y: companies/name Z: companies/city",
+        "correct": false
+      },
+      {
+        "text": "X:/regions/companies Y: name Z: city",
+        "correct": true
+      },
+      {
+        "text": "X:/regions/0/companies Y: name Z: city",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Your customer requests a special create method to enable the creation of the full OData hierarchy. Which OData service method can you use?",
+    "image": "",
+    "answers": [
+      {
+        "text": "EXECUTE_DEEP_INSERT",
+        "correct": false
+      },
+      {
+        "text": "CREATE_STREAM",
+        "correct": false
+      },
+      {
+        "text": "CREATE_BATCH_ENTITY",
+        "correct": false
+      },
+      {
+        "text": "CREATE_DEEP_ENTITY",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Your customer asks you about the advantages of the Model View Controller (MVC) design pattern used in SAPUI5. Which of the following answers do you provide? Note: There are 2 correct answers to this question.",
+    "image": "",
+    "answers": [
+      {
+        "text": "MVC is easy to implement for the project team members and supports quick coding.",
+        "correct": false
+      },
+      {
+        "text": "The data models can be reused by several different applications.",
+        "correct": true
+      },
+      {
+        "text": "MVC artifacts can be transported and debugged separately.",
+        "correct": false
+      },
+      {
+        "text": "Allows the project team to decouple UI development from business logic development.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "You created a new catalog that contains some apps. You want to assign these apps to an existing role to provide authorization for the business users. How can you do this using the PFCG transaction?",
+    "image": "",
+    "answers": [
+      {
+        "text": "By adding the semantic object to the catalog and group",
+        "correct": false
+      },
+      {
+        "text": "By assigning the authorization profile for the catalog in the authorization tab",
+        "correct": false
+      },
+      {
+        "text": "By adding the tile and target mapping to the group",
+        "correct": false
+      },
+      {
+        "text": "By adding the catalog to the menu tab of the role",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "You are extending an SAP Fiori app. Which of the extension properties are defined in the manifest.json? Note: There are 2 correct answers to this question.",
+    "image": "",
+    "answers": [
+      {
+        "text": "sap.ui.i18nModifications",
+        "correct": false
+      },
+      {
+        "text": "sap.ui.viewModifications",
+        "correct": true
+      },
+      {
+        "text": "sap.ui.modelModifications",
+        "correct": false
+      },
+      {
+        "text": "sap.ui.controllerExtensions",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "You need the backend server to sort and filter the data used in your customer’s app. Which SAPUI5-supported data model must you use?",
+    "image": "",
+    "answers": [
+      {
+        "text": "XMLModel",
+        "correct": false
+      },
+      {
+        "text": "ResourceModel",
+        "correct": false
+      },
+      {
+        "text": "JSONModel",
+        "correct": false
+      },
+      {
+        "text": "ODataModel",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A business user is unable to find an application on the SAP Fiori Launchpad or on the App Finder. Which of the following options could explain why the tile is unavailable? Note: There are 3 correct answers to this question.",
+    "image": "",
+    "answers": [
+      {
+        "text": "The OData service authorization is missing",
+        "correct": true
+      },
+      {
+        "text": "The target mapping for the tile is missing in the catalog",
+        "correct": true
+      },
+      {
+        "text": "The end user is missing the required group containing the tile",
+        "correct": false
+      },
+      {
+        "text": "The catalog role is not assigned to the relevant application or tile.",
+        "correct": true
+      },
+      {
+        "text": "The user does not have the proper PFCG role assigned to see the application or tile",
+        "correct": false
+      }
+    ]
+  },
+
+  {
+    "question": "Where do you define the routes for your application?",
+    "image": "",
+    "answers": [
+      {
+        "text": "In the component.js file",
+        "correct": false
+      },
+      {
+        "text": "In the manifest.json file",
+        "correct": true
+      },
+      {
+        "text": "In the root view file.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which statements about filtering are correct?",
+    "image": "",
+    "answers": [
+      {
+        "text": "When filtering manually via the API, exactly one filter object can be set at a time.",
+        "correct": false
+      },
+      {
+        "text": "Filters are objects of thesap.ui.model.Filterclass.",
+        "correct": true
+      },
+      {
+        "text": "Element binding can be used to specify filter criteria for the initial display of the data.",
+        "correct": false
+      },
+      {
+        "text": "To filter data manually using the API, thefiltermethod of the corresponding binding object is called.",
+        "correct": true
+      },
+      {
+        "text": "To filter data for initial display, thefilterproperty is used in the complex binding syntax.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which property in the complex binding syntax is used to specify a formatter function for the data binding?",
+    "image": "",
+    "answers": [
+      {
+        "text": "formatOptions",
+        "correct": false
+      },
+      {
+        "text": "formatter",
+        "correct": true
+      },
+      {
+        "text": "type",
+        "correct": false
+      },
+      {
+        "text": "path",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What kind of dev space is needed to develop SAPUI5 applications?",
+    "image": "",
+    "answers": [
+      {
+        "text": "SAP Mobile Application",
+        "correct": false
+      },
+      {
+        "text": "Full Stack Cloud Application",
+        "correct": false
+      },
+      {
+        "text": "Basic",
+        "correct": false
+      },
+      {
+        "text": "SAP Fiori",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "SAP Fiori elements support write operations if the back-end service is written by CDS working with BOPF",
+    "image": "",
+    "answers": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
     "question": "Your customer requires an app to display flight information on a mobile device. Please see the screenshot for details. Which options can you use to display the same data in a readable format on a mobile device?",
     "image": "https://www.practice4test.com/question_updater/json_images/C_FIORD_2404/OtherImage_2fc1d074e-b428-4717-80ad-4cce08e61e09.png",
     "answers": [
@@ -1430,7 +1691,7 @@
     ]
   },
   {
-    "question": "Which of the following events are to be implemented in the detailed view controller ?",
+    "question": "Which of the following events are to be implemented in the detailed view controller?",
     "image": "",
     "answers": [
       {
@@ -1452,7 +1713,7 @@
     ]
   },
   {
-    "question": "which of those elements are part of the routingconfiguration ?",
+    "question": "which of those elements are part of the routing configuration?",
     "image": "",
     "answers": [
       {
@@ -1496,7 +1757,7 @@
     ]
   },
   {
-    "question": "Where can you find the device JSON Model that the SAPUI5 template of SAP Business Application Studio provides ?",
+    "question": "Where can you find the device JSON Model that the SAPUI5 template of SAP Business Application Studio provides?",
     "image": "",
     "answers": [
       {
@@ -1514,7 +1775,7 @@
     ]
   },
   {
-    "question": "What is the main control used to implement a list-detail application ?",
+    "question": "What is the main control used to implement a list-detail application?",
     "image": "",
     "answers": [
       {
@@ -1536,7 +1797,7 @@
     ]
   },
   {
-    "question": "Which methods should be implemented in the ListSelector ?",
+    "question": "Which methods should be implemented in the ListSelector?",
     "image": "",
     "answers": [
       {
@@ -1558,7 +1819,7 @@
     ]
   },
   {
-    "question": "Which differences are there when implementing routing configuration for a list-detail application compared to a full-screen application ?",
+    "question": "Which differences are there when implementing routing configuration for a list-detail application compared to a full-screen application?",
     "image": "",
     "answers": [
       {
@@ -1612,7 +1873,7 @@
     ]
   },
   {
-    "question": "What are the two controls that can be used to implement list-detail views ?",
+    "question": "What are the two controls that can be used to implement list-detail views?",
     "image": "",
     "answers": [
       {
@@ -2922,7 +3183,7 @@
     ]
   },
   {
-    "question": "You develop an SAPUI5 app and implement a FacetFilter. What events are triggered when the user interacts with the FacetFilter control?",
+    "question": "You develop an SAPUI5 app and implement a Facet Filter. What events are triggered when the user interacts with the FacetFilter control?",
     "image": "",
     "answers": [
       {
@@ -3101,7 +3362,7 @@
       },
       {
         "text": "Add Annotation to the underlying Database Table",
-        "correct": false
+        "correct": true
       }
     ]
   },
