@@ -1,7 +1,7 @@
 [
   {
     "question": "In the data in the screenshot,you want to display the List of Companies in the Americas region. Which binding option do you use for the X, Y, and Z values in the view?",
-    "image": "./screen1.png",
+    "image": "./q/screen1.png",
     "answers": [
       {
         "text": "X:/regions/0/companies Y: companies/0/name Z: companies/0/city",
@@ -262,7 +262,7 @@
   },
   {
     "question": "Your customer requires an app to display flight information on a mobile device. Please see the screenshot for details. Which options can you use to display the same data in a readable format on a mobile device?",
-    "image": "https://www.practice4test.com/question_updater/json_images/C_FIORD_2404/OtherImage_2fc1d074e-b428-4717-80ad-4cce08e61e09.png",
+    "image": "./q/screen2.png",
     "answers": [
       {
         "text": "column : <Column demandPopin-'true' minScreenWidth='tablet'>",
@@ -284,7 +284,7 @@
   },
   {
     "question": "In the screenshot, which element of the Arrange-Act-Assert pattern corresponds to the Act in a QUnit test?",
-    "image": "https://freedumps.certqueen.com/wp-content/uploads/2022/08/image003-4.jpg",
+    "image": "./q/screen3.jpg",
     "answers": [
       {
         "text": "QUnit.module",
@@ -306,7 +306,7 @@
   },
   {
     "question": "In the source code below, which of the following locations must reference the extension point?",
-    "image": "https://freedumps.certqueen.com/wp-content/uploads/2022/08/image002-3.jpg",
+    "image": "./q/screen4.jpg",
     "answers": [
       {
         "text": "Neo-app.json",
@@ -328,7 +328,7 @@
   },
   {
     "question": " In the code on the screenshot, what are the absolute paths of the property that retrieves the City value for the company AcmeInc.?",
-    "image": "https://freedumps.certqueen.com/wp-content/uploads/2022/08/image001-3.jpg",
+    "image": "./q/screen5.jpg",
     "answers": [
       {
         "text": "/regions/companies/O/city",
