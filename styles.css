@@ -76,6 +76,15 @@ form {
   margin-bottom: 10px;
 }
 
+.question img {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
   margin: 0;
