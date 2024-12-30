@@ -4,6 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const formElement = document.getElementById("exam-form");
   const submitButton = document.getElementById("submit-button");
 
+  const resultOverlay = document.getElementById("result-overlay");
+  const resultImage = document.getElementById("result-image");
+  const resultText = document.getElementById("result-text");
+
   let timer = 0;
   let interval;
   let questions = [];
@@ -106,6 +110,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const percentage = Math.round((score / questions.length) * 100);
     alert(`You scored ${percentage}%! ${percentage >= 66 ? "Pass" : "Fail"}`);
+
+    resultOverlay.style.display = "flex"; 
+
+    if (percentage >= 66) {
+      resultImage.src = "success.png"; 
+      resultText.textContent = "Felicitaciones";
+    } else {
+      resultImage.src = "fail.jpg"; 
+      resultText.textContent = "Da f5 para volver a intentar";
+    }
   });
 
   formElement.addEventListener("change", () => {

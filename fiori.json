@@ -4315,7 +4315,7 @@
     ]
   },
   {
-    "question": "hat query option is needed to access the data of an entity in the JSON format?",
+    "question": "What query option is needed to access the data of an entity in the JSON format?",
     "answers": [
       {
         "text": "format=json",
@@ -4466,6 +4466,937 @@
       },
       {
         "text": "Committed",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What class in the SAPUI5 API supports back end mock up and is recommended by SAP?",
+    "answers": [
+      {
+        "text": "sap.ui.core.MockServer",
+        "correct": false
+      },
+      {
+        "text": "sap.ui.core.util.MockServer",
+        "correct": true
+      },
+      {
+        "text": "sap.m.MockServer",
+        "correct": false
+      },
+      {
+        "text": "sap.ui.app.MockServer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following describe benefits of SAP Fiori elements?",
+    "answers": [
+      {
+        "text": "Less support effort",
+        "correct": true
+      },
+      {
+        "text": "Flexibility and freedom in UI design",
+        "correct": false
+      },
+      {
+        "text": "Full control of the generated code at design time",
+        "correct": false
+      },
+      {
+        "text": "Consistent UI design",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which elements are part of a list report?",
+    "answers": [
+      {
+        "text": "Cards",
+        "correct": false
+      },
+      {
+        "text": "Visual filters",
+        "correct": true
+      },
+      {
+        "text": "Application header",
+        "correct": true
+      },
+      {
+        "text": "Save as tile button",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which HTTP request method can you use to create an OData resource?",
+    "answers": [
+      {
+        "text": "Change",
+        "correct": false
+      },
+      {
+        "text": "Post",
+        "correct": true
+      },
+      {
+        "text": "Put",
+        "correct": false
+      },
+      {
+        "text": "Update",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "You need to consume the OData Service from the Gateway to create a new SAP Fiori app in the SAP Business Application Studio. What value do you configure in the WeblDEUsage property for the destination in the SAP BTP?",
+    "answers": [
+      {
+        "text": "odata_abap",
+        "correct": false
+      },
+      {
+        "text": "odata_gen",
+        "correct": true
+      },
+      {
+        "text": "dev_abap",
+        "correct": false
+      },
+      {
+        "text": "odata_xs",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which annotations are needed in a CDS View to create an Analytic Card in an Overview Page",
+    "answers": [
+      {
+        "text": "@UI.Chart",
+        "correct": true
+      },
+      {
+        "text": "@UI.dataPoint.responsible",
+        "correct": false
+      },
+      {
+        "text": "@UI.identification",
+        "correct": false
+      },
+      {
+        "text": "@UI.lineltem",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following statements are true with regard to OPA5?",
+    "answers": [
+      {
+        "text": "Can be used for SAPU15 integration",
+        "correct": true
+      },
+      {
+        "text": "Is a view controller test framework",
+        "correct": false
+      },
+      {
+        "text": "Provides the possibility to test navigation",
+        "correct": true
+      },
+      {
+        "text": "Can be used for user interaction tests",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What types of extensions or replacements are supported by SAPUI5?",
+    "answers": [
+      {
+        "text": "Manifest.json replacement",
+        "correct": false
+      },
+      {
+        "text": "Implement Ui Controller Hooks",
+        "correct": true
+      },
+      {
+        "text": "View modifications",
+        "correct": true
+      },
+      {
+        "text": "Replace service",
+        "correct": true
+      },
+      {
+        "text": "View replacement",
+        "correct": true
+      },
+      {
+        "text": "Component replacement",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which modes are provided by the sap.m.SplitAppMode enumeration?",
+    "answers": [
+      {
+        "text": "StretchCompresssMode",
+        "correct": true
+      },
+      {
+        "text": "ShrinkCozyMode",
+        "correct": false
+      },
+      {
+        "text": "ShowHideMode",
+        "correct": true
+      },
+      {
+        "text": "HideShowMode",
+        "correct": false
+      },
+      {
+        "text": "PopoverMode",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What message types are known to SAPUI5?",
+    "answers": [
+      {
+        "text": "UI message",
+        "correct": false
+      },
+      {
+        "text": "Server message",
+        "correct": true
+      },
+      {
+        "text": "Control message",
+        "correct": true
+      },
+      {
+        "text": "Log message",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A business user is unable to find an application on the SAP Fiori Launchpad or on the App Finder. Which of the following options could explain why the tile is unavailable?",
+    "answers": [
+      {
+        "text": "The end user is missing the required group containing the tile.",
+        "correct": true
+      },
+      {
+        "text": "The catalogs assigned to the user do not contain the relevant application or tile.",
+        "correct": false
+      },
+      {
+        "text": "The user does not have the proper PFCG role assigned to see the application or tile.",
+        "correct": false
+      },
+      {
+        "text": "The OData service authorization is missing.",
+        "correct": true
+      },
+      {
+        "text": "The target mapping for the tile is missing in the catalog.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following SAP Fiori element based Uis are currently available?",
+    "answers": [
+      {
+        "text": "Master Detail",
+        "correct": false
+      },
+      {
+        "text": "Wizard Form",
+        "correct": false
+      },
+      {
+        "text": "Object Page",
+        "correct": true
+      },
+      {
+        "text": "List Report",
+        "correct": true
+      },
+      {
+        "text": "Overview Pages",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "When do you need to work with local data?",
+    "answers": [
+      {
+        "text": "When you want to reduce the complexity of your application",
+        "correct": false
+      },
+      {
+        "text": "When performance is poor in the productive system",
+        "correct": false
+      },
+      {
+        "text": "When working with static data",
+        "correct": true
+      },
+      {
+        "text": "To perform a quick test without creating live entities on the back end server",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following best describes a commit?",
+    "answers": [
+      {
+        "text": "With every commit, GIT takes a snapshot of the current state of the underlying files",
+        "correct": true
+      },
+      {
+        "text": "A commit in GIT is a local operation",
+        "correct": false
+      },
+      {
+        "text": "With every commit, a new local repository is created",
+        "correct": false
+      },
+      {
+        "text": "With every commit, GIT create a new branch",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When is the use of a master detail pattern not recommended",
+    "answers": [
+      {
+        "text": "You need to offer complex filters for the master list of items",
+        "correct": true
+      },
+      {
+        "text": "When you want to display different facets of the same object, data or both",
+        "correct": true
+      },
+      {
+        "text": "You want to display a single object",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "You need the backend server to sort and filter the data used in your customer's app. Which SAPUI5 supported data model must you use?",
+    "answers": [
+      {
+        "text": "JSONModel",
+        "correct": false
+      },
+      {
+        "text": "ResourceModel",
+        "correct": false
+      },
+      {
+        "text": "ODataModel",
+        "correct": true
+      },
+      {
+        "text": "XMLModel",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which features of the SAP Business Application Studio help you extend a standard SAP Fiori app?",
+    "answers": [
+      {
+        "text": "A wizard to generate the files for each extension possibility",
+        "correct": true
+      },
+      {
+        "text": "The Extensibility Pane to choose extension points",
+        "correct": true
+      },
+      {
+        "text": "An editor to modify the data model in the extended project",
+        "correct": false
+      },
+      {
+        "text": "The Descriptor Editor to choose elements for extension",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the base class for all UI controls in SAPUI5?",
+    "answers": [
+      {
+        "text": "sap.ui.Element",
+        "correct": false
+      },
+      {
+        "text": "sap.ui.base.Control",
+        "correct": false
+      },
+      {
+        "text": "sap.ui.core.Control",
+        "correct": true
+      },
+      {
+        "text": "sap.ui.Control",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What parameter is needed when instantiating a MockServer object?",
+    "answers": [
+      {
+        "text": "rootUrl",
+        "correct": false
+      },
+      {
+        "text": "uri",
+        "correct": false
+      },
+      {
+        "text": "url",
+        "correct": false
+      },
+      {
+        "text": "rootUri",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What layout control is used to achieve flexible and responsive layouts?",
+    "answers": [
+      {
+        "text": "Splitter",
+        "correct": false
+      },
+      {
+        "text": "Grid",
+        "correct": false
+      },
+      {
+        "text": "VerticalLayout",
+        "correct": false
+      },
+      {
+        "text": "FlexBox",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "You want to define a property with the name width to enhance a standard UI5 control. The property should hold the current width of the UI control. What is the best approach to defining the type of such a property?",
+    "answers": [
+      {
+        "text": "Define the property width of the type sap.ui.core.CSSSize",
+        "correct": true
+      },
+      {
+        "text": "Define the property width of the type sap.ui.core.lnteger",
+        "correct": false
+      },
+      {
+        "text": "Define the property width of the type string",
+        "correct": false
+      },
+      {
+        "text": "Define the property width of the type sap.ui.core.type.CSSSize",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which function do you call on the ODataModel to trigger a deep insert?",
+    "answers": [
+      {
+        "text": "createDeep",
+        "correct": false
+      },
+      {
+        "text": "udpateDeep",
+        "correct": false
+      },
+      {
+        "text": "create",
+        "correct": true
+      },
+      {
+        "text": "insertDeep",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which file contains the initialization code for the UI library?",
+    "answers": [
+      {
+        "text": "library.js",
+        "correct": true
+      },
+      {
+        "text": "lib.dll",
+        "correct": false
+      },
+      {
+        "text": "library. load .js",
+        "correct": false
+      },
+      {
+        "text": "loadlibrary.js",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Your customer extends an SAP Fiori app with View Replacement. Which activities do you perform?",
+    "answers": [
+      {
+        "text": "Identify a specific SAPU15 control to be replaced.",
+        "correct": false
+      },
+      {
+        "text": "Verify that adding custom content in the Extension Points is NOT sufficient.",
+        "correct": true
+      },
+      {
+        "text": "Create an SAPU15 control that replaces the original control.",
+        "correct": false
+      },
+      {
+        "text": "Create an SAPU15 view that replaces the complete view.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which properties do you need to configure when you use the Mock server? Note: There are 2 correct answers to this question.",
+    "answers": [
+      {
+        "text": "Service URL",
+        "correct": true
+      },
+      {
+        "text": "Module path",
+        "correct": true
+      },
+      {
+        "text": "Destination",
+        "correct": false
+      },
+      {
+        "text": "Binding type",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following can you use to extend an SAP Fiori Elements application? Note: There are 2 correct answers to this question.",
+    "answers": [
+      {
+        "text": "App extension",
+        "correct": true
+      },
+      {
+        "text": "Adaption extensions",
+        "correct": false
+      },
+      {
+        "text": "ABAP extension",
+        "correct": false
+      },
+      {
+        "text": "CDS extension",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "You are developing a complex screen and you use fragments. What features of fragments are useful here? Note: There are 2 correct answers to this question.",
+    "answers": [
+      {
+        "text": "Fragments are light-weight UI parts that can be reused.",
+        "correct": true
+      },
+      {
+        "text": "Fragments can be a stand-alone view",
+        "correct": true
+      },
+      {
+        "text": "Fragments can be found by the SAPUI5 runtime libraries.",
+        "correct": false
+      },
+      {
+        "text": "Fragments have their own controller.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following can you use to extend an SAP Fiori Elements application? Note: There are 2 correct answers to this question.",
+    "answers": [
+      {
+        "text": "App extension",
+        "correct": true
+      },
+      {
+        "text": "Adaption extensions",
+        "correct": false
+      },
+      {
+        "text": "ABAP extension",
+        "correct": false
+      },
+      {
+        "text": "CDS extension",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What are catalog types in SAP Fiori? Note: There are 3 correct answers to this question.",
+    "answers": [
+      {
+        "text": "Tile",
+        "correct": true
+      },
+      {
+        "text": "Standard",
+        "correct": true
+      },
+      {
+        "text": "System",
+        "correct": false
+      },
+      {
+        "text": "Replicable",
+        "correct": true
+      },
+      {
+        "text": "None-typed",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which HTTP request methods does the SAP Gateway server use to compute and return a new eTag in a response header?",
+    "answers": [
+      {
+        "text": "GET",
+        "correct": false
+      },
+      {
+        "text": "PUT",
+        "correct": true
+      },
+      {
+        "text": "POST",
+        "correct": true
+      },
+      {
+        "text": "DELETE",
+        "correct": false
+      },
+      {
+        "text": "MERGE",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What are the two aggregations provided by sap.m.SplitApp control to add page implementations?",
+    "answers": [
+      {
+        "text": "masterPages",
+        "correct": true
+      },
+      {
+        "text": "detailPages",
+        "correct": true
+      },
+      {
+        "text": "infoPages",
+        "correct": false
+      },
+      {
+        "text": "mainPages",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which aggregation is used to overwrite the standard behavior of a SmartField control?",
+    "answers": [
+      {
+        "text": "overwrite",
+        "correct": false
+      },
+      {
+        "text": "configure",
+        "correct": true
+      },
+      {
+        "text": "extension",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How is the extension type called to hide UI controls?",
+    "answers": [
+      {
+        "text": "Control replacement",
+        "correct": false
+      },
+      {
+        "text": "Control modification",
+        "correct": false
+      },
+      {
+        "text": "Element modification",
+        "correct": false
+      },
+      {
+        "text": "View modification",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which model supports deep inserts?",
+    "answers": [
+      {
+        "text": "Resource model",
+        "correct": false
+      },
+      {
+        "text": "OData model",
+        "correct": true
+      },
+      {
+        "text": "JSON model",
+        "correct": false
+      },
+      {
+        "text": "XML model",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which UI annotation is used to declare a field for the smart filter template?",
+    "answers": [
+      {
+        "text": "UI.finderField",
+        "correct": false
+      },
+      {
+        "text": "UI.filterField",
+        "correct": false
+      },
+      {
+        "text": "UI.selectionField",
+        "correct": true
+      },
+      {
+        "text": "UI.searchField",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following can you use to extend an SAP Fiori Elements application? Note: There are 2 correct answers to this question.",
+    "answers": [
+      {
+        "text": "App extension",
+        "correct": true
+      },
+      {
+        "text": "Adaption extensions",
+        "correct": false
+      },
+      {
+        "text": "ABAP extension",
+        "correct": false
+      },
+      {
+        "text": "CDS extension",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What can you connect with the SAP Cloud Connector?",
+    "answers": [
+      {
+        "text": "SAP BTP services to on-premise systems in a customer's network",
+        "correct": true
+      },
+      {
+        "text": "SAP BTP services to SAP Business Application Studio",
+        "correct": false
+      },
+      {
+        "text": "SAP Business Application Studio to a Cordova development environment",
+        "correct": false
+      },
+      {
+        "text": "SAP API Business Hub to client devices",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are catalog types in SAP Fiori? Note: There are 3 correct answers to this question.",
+    "answers": [
+      {
+        "text": "Tile",
+        "correct": true
+      },
+      {
+        "text": "Standard",
+        "correct": true
+      },
+      {
+        "text": "System",
+        "correct": false
+      },
+      {
+        "text": "Replicable",
+        "correct": true
+      },
+      {
+        "text": "None-typed",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following are features of the SAPUI5 SDK? Note: There are 2 correct answers to this question.",
+    "answers": [
+      {
+        "text": "Responsiveness across browsers on non-mobile devices only",
+        "correct": false
+      },
+      {
+        "text": "Interface for Web Dynpro",
+        "correct": false
+      },
+      {
+        "text": "Full translation support",
+        "correct": true
+      },
+      {
+        "text": "Feature-rich UI controls for handling complex UI patterns",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which methods can you use to bind data to the controls in SAPUI5? Note: There are 3 correct answers to this question.",
+    "answers": [
+      {
+        "text": "Element",
+        "correct": true
+      },
+      {
+        "text": "Structure",
+        "correct": false
+      },
+      {
+        "text": "Property",
+        "correct": true
+      },
+      {
+        "text": "Combination",
+        "correct": false
+      },
+      {
+        "text": "Aggregation",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which features of the SAP Business Application Studio help you extend a standard SAP Fiori app? Note: There are 2 correct answers to this question.",
+    "answers": [
+      {
+        "text": "A wizard to generate the files for each extension possibility",
+        "correct": true
+      },
+      {
+        "text": "The Extensibility Pane to choose extension points",
+        "correct": true
+      },
+      {
+        "text": "An editor to modify the data model in the extended project",
+        "correct": false
+      },
+      {
+        "text": "The Descriptor Editor to choose elements for extension",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "You are developing SAP Fiori Elements applications. Which of the following actions are available in SAP Web IDE? Note: There are 2 correct answers to this question.",
+    "answers": [
+      {
+        "text": "Create an annotation file associated with the OData service and add annotations",
+        "correct": false
+      },
+      {
+        "text": "Add catalog to user menu in a PFCG role and grant the role to user",
+        "correct": true
+      },
+      {
+        "text": "Create a catalog, target mapping, and tiles",
+        "correct": true
+      },
+      {
+        "text": "Choose the OData service as data provider for the project",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In a standard SAPUI5 project, which file is the Application Descriptor that contains the metadata description of the application?",
+    "answers": [
+      {
+        "text": "Index.html",
+        "correct": false
+      },
+      {
+        "text": "Neo-app.json",
+        "correct": false
+      },
+      {
+        "text": "Component.js",
+        "correct": false
+      },
+      {
+        "text": "Manifest.json",
         "correct": true
       }
     ]

@@ -1,8 +1,424 @@
 [
-
   {
-    "question": "",
+    "question": "Which file can you use to configure internal navigation for List Report and Object Page templates?",
     "answers": [
+      {
+        "text": "vocabulary.xml file",
+        "correct": false
+      },
+      {
+        "text": "manifest.json file",
+        "correct": false
+      },
+      {
+        "text": "index.html file",
+        "correct": false
+      },
+      {
+        "text": "OData annotation file",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What are the limitations of OPA5 test?",
+    "answers": [
+      {
+        "text": "No remote test execution",
+        "correct": true
+      },
+      {
+        "text": "No access to JavaScript functions",
+        "correct": false
+      },
+      {
+        "text": "No screen capturing",
+        "correct": true
+      },
+      {
+        "text": "No automated test creation",
+        "correct": false
+      },
+      {
+        "text": "End-to-end tests are not recommended with OPA due to authentication issues and fragility of test data",
+        "correct": true
+      },
+      {
+        "text": "Testing across more than one page",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is true about OPA5?",
+    "answers": [
+      {
+        "text": "It follows the arrange act assert pattern (corresponds to given when then), which improves readability and understanding of the test cases.",
+        "correct": true
+      },
+      {
+        "text": "It is easy to run on mobile devices as no plugins/apps are needed; you can as easily just run it in the browser",
+        "correct": true
+      },
+      {
+        "text": "Saves time for the developer as regressions decrease",
+        "correct": true
+      },
+      {
+        "text": "The OPA5 library is JavaScript-based",
+        "correct": true
+      },
+      {
+        "text": "OPA5 is only compatible with Angular applications.",
+        "correct": false
+      },
+      {
+        "text": "OPA5 tests are automatically executed on the SAP Cloud Platform without any additional setup.",
+        "correct": false
+      },
+      {
+        "text": "OPA5 is a testing framework exclusive to SAP Fiori apps and cannot be used with other SAP technologies.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the advantages of using OPA5?",
+    "answers": [
+      {
+        "text": "Quick and easy access to JavaScript functions",
+        "correct": true
+      },
+      {
+        "text": "Easy ramp-up as it can be used with any JavaScript unit test framework, such as QUnit or Jasmine",
+        "correct": true
+      },
+      {
+        "text": "Using the same runtime enables debugging",
+        "correct": true
+      },
+      {
+        "text": "Good SAPUI5 integration",
+        "correct": true
+      },
+      {
+        "text": "Feedback within seconds makes it possible to execute tests directly after a change",
+        "correct": true
+      },
+      {
+        "text": "Asynchronicity is handled with polling instead of timeouts, which makes it faster",
+        "correct": true
+      },
+      {
+        "text": "Enables test-driven development (TDD)",
+        "correct": true
+      },
+      {
+        "text": "OPA5 only works with SAP applications and cannot be used with non-SAP technologies.",
+        "correct": false
+      },
+      {
+        "text": "OPA5 requires a dedicated server to run tests and cannot be executed in a local development environment.",
+        "correct": false
+      },
+      {
+        "text": "OPA5 is only suitable for front-end testing and cannot be used for back-end testing.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the advantages of Local Annotations Over SADL based Annotations?",
+    "answers": [
+      {
+        "text": "Can Override the CDS based Annotations.",
+        "correct": true
+      },
+      {
+        "text": "All the Framework Specific Annotations available as a part of CDS views are also available as a part of Annotation Modeler, which makes it highly flexible.",
+        "correct": false
+      },
+      {
+        "text": "Can handle Complex annotations which is not a bound to a single field or entity.",
+        "correct": false
+      },
+      {
+        "text": "Local Annotations are more reusable as compared to SADL based annotations.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following can you use to extend an SAP Fiori Elements application?",
+    "answers": [
+      {
+        "text": "ABAP extension",
+        "correct": false
+      },
+      {
+        "text": "Adaption extensions",
+        "correct": true
+      },
+      {
+        "text": "App extension",
+        "correct": true
+      },
+      {
+        "text": "CDS extension",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "As which app type does SAP Business Application Studio deploy an SAPUI5 app to the ABAP server?",
+    "answers": [
+      {
+        "text": "HTML5",
+        "correct": false
+      },
+      {
+        "text": "ABAP",
+        "correct": false
+      },
+      {
+        "text": "OpenUi5",
+        "correct": false
+      },
+      {
+        "text": "BSP",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What are the lifecycle events of an SAPUI5 view controller?",
+    "answers": [
+      {
+        "text": "onAfterRendering",
+        "correct": true
+      },
+      {
+        "text": "onRendering",
+        "correct": false
+      },
+      {
+        "text": "onBeforeEntry",
+        "correct": false
+      },
+      {
+        "text": "onExit",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "You develop an SAPUI5 app that can be extended. To allow your customer to customize notifications, you set up a hook method. What activities are required to set up a hook method?",
+    "answers": [
+      {
+        "text": "Identify a strategic location in the controller for the customized code.",
+        "correct": true
+      },
+      {
+        "text": "Define a new function name ensuring it is reserved for the extension.",
+        "correct": true
+      },
+      {
+        "text": "Add a code snippet to check if the method exists and execute it.",
+        "correct": true
+      },
+      {
+        "text": "Modify the bootstrap option to allow multilayer extensions of the custom code.",
+        "correct": false
+      },
+      {
+        "text": "Create a .js file in the Util folder to allow the customer to add custom code.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "You are modeling a new role for your SA modeling a new role for your SAP P Fiori Launchpad users. Which of the following steps is an optional configuration step?",
+    "answers": [
+      {
+        "text": "Create Catalog",
+        "correct": false
+      },
+      {
+        "text": "Create Group and Assign Tile",
+        "correct": true
+      },
+      {
+        "text": "Create Tiles and Target Mappings",
+        "correct": false
+      },
+      {
+        "text": "Assign Catalog to Role",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "You want to use transaction /U12/FLP to start the SAP Fiori Launchpad using the Web Dispatcher. Which database table do you use to configure this?",
+    "answers": [
+      {
+        "text": "HTTP_CSP_MADMIN",
+        "correct": false
+      },
+      {
+        "text": "HTTPURLLOC",
+        "correct": true
+      },
+      {
+        "text": "HTTP_WHITELIST",
+        "correct": false
+      },
+      {
+        "text": "HTTP_MADMIM",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the advantages of the Sinon.JS framework?",
+    "answers": [
+      {
+        "text": "It supports only synchronous requests.",
+        "correct": false
+      },
+      {
+        "text": "It is included in the SAP UI5 libraries.",
+        "correct": true
+      },
+      {
+        "text": "It supplies higher level test doubles for timers and AJAX requests.",
+        "correct": true
+      },
+      {
+        "text": "It enables test driven development.",
+        "correct": false
+      },
+      {
+        "text": "It provides support for Spies, stubs and mocks.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which SAP Fiori app types require the SAP HANA database?",
+    "answers": [
+      {
+        "text": "Factsheet",
+        "correct": true
+      },
+      {
+        "text": "Analytical",
+        "correct": true
+      },
+      {
+        "text": "Legacy",
+        "correct": false
+      },
+      {
+        "text": "Transactional",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "While testing an SAP Fiori app you discover that the navigation on the page does not work correctly Which of the following agile pyramid options do you use?",
+    "answers": [
+      {
+        "text": "Sinon",
+        "correct": false
+      },
+      {
+        "text": "QUnit",
+        "correct": false
+      },
+      {
+        "text": "Mock server",
+        "correct": false
+      },
+      {
+        "text": "OPA",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "In a standard SAPUI5 project, which file is the Application Descriptor that contains the metadata description of the application?",
+    "answers": [
+      {
+        "text": "Manifest.json",
+        "correct": true
+      },
+      {
+        "text": "Index.html",
+        "correct": false
+      },
+      {
+        "text": "Neo app.json",
+        "correct": false
+      },
+      {
+        "text": "Component.js",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Your customer wants to enable the SAP Fiori app to be accessed in multiple languages. Which of the following activities do you perform?",
+    "answers": [
+      {
+        "text": "Encode the special characters in HTML in the resources file.",
+        "correct": true
+      },
+      {
+        "text": "Create a resource file containing key/value pairs.",
+        "correct": true
+      },
+      {
+        "text": "Create a resource file for each language.",
+        "correct": true
+      },
+      {
+        "text": "Create a resource file with a .props extension.",
+        "correct": false
+      },
+      {
+        "text": "Create a view file and a controller file for each language.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which processes are part of the design phase when you develop SAP Fiori apps?",
+    "answers": [
+      {
+        "text": "Developing, Testing and Deploying",
+        "correct": false
+      },
+      {
+        "text": "Ideation, Prototyping and Validation",
+        "correct": true
+      },
+      {
+        "text": "Scoping, 360 degree research and Synthesis",
+        "correct": false
+      },
+      {
+        "text": "Requirement gathering, Research and Documentation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "You want to create a business catalog for all employees that contains a standard SAP Fiori app. How would you do this?",
+    "answers": [
+      {
+        "text": "",
+        "correct": false
+      },
       {
         "text": "",
         "correct": false
@@ -31,19 +447,6 @@
       {
         "text": "",
         "correct": false
-      }
-    ]
-  },
-  {
-    "question": "",
-    "answers": [
-      {
-        "text": "",
-        "correct": false
-      },
-      {
-        "text": "",
-        "correct": false
       },
       {
         "text": "",
@@ -58,19 +461,6 @@
         "text": "",
         "correct": false
       },
-      {
-        "text": "",
-        "correct": false
-      },
-      {
-        "text": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "question": "",
-    "answers": [
       {
         "text": "",
         "correct": false
@@ -99,19 +489,6 @@
       {
         "text": "",
         "correct": false
-      }
-    ]
-  },
-  {
-    "question": "",
-    "answers": [
-      {
-        "text": "",
-        "correct": false
-      },
-      {
-        "text": "",
-        "correct": false
       },
       {
         "text": "",
@@ -126,19 +503,6 @@
         "text": "",
         "correct": false
       },
-      {
-        "text": "",
-        "correct": false
-      },
-      {
-        "text": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "question": "",
-    "answers": [
       {
         "text": "",
         "correct": false
@@ -167,19 +531,6 @@
       {
         "text": "",
         "correct": false
-      }
-    ]
-  },
-  {
-    "question": "",
-    "answers": [
-      {
-        "text": "",
-        "correct": false
-      },
-      {
-        "text": "",
-        "correct": false
       },
       {
         "text": "",
@@ -194,19 +545,6 @@
         "text": "",
         "correct": false
       },
-      {
-        "text": "",
-        "correct": false
-      },
-      {
-        "text": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "question": "",
-    "answers": [
       {
         "text": "",
         "correct": false
@@ -235,19 +573,6 @@
       {
         "text": "",
         "correct": false
-      }
-    ]
-  },
-  {
-    "question": "",
-    "answers": [
-      {
-        "text": "",
-        "correct": false
-      },
-      {
-        "text": "",
-        "correct": false
       },
       {
         "text": "",
@@ -269,12 +594,104 @@
       {
         "text": "",
         "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
       }
     ]
   },
   {
     "question": "",
     "answers": [
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "",
+    "answers": [
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "",
+    "answers": [
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "",
+    "answers": [
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      },
+      {
+        "text": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "",
+    "answers": [
+      {
+        "text": "",
+        "correct": false
+      },
       {
         "text": "",
         "correct": false
