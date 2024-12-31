@@ -157,7 +157,6 @@
       }
     ]
   },
-
   {
     "question": "Where do you define the routes for your application?",
     "image": "",
@@ -2595,28 +2594,6 @@
     ]
   },
   {
-    "question": "Your customer requests a special create method to enable the creation of the full OData hierarchy. Which OData service method can you use?",
-    "image": "",
-    "answers": [
-      {
-        "text": "EXECUTE_DEEP_INSERT",
-        "correct": false
-      },
-      {
-        "text": "CREATE_STREAM",
-        "correct": false
-      },
-      {
-        "text": "CREATE_BATCH_ENTITY",
-        "correct": false
-      },
-      {
-        "text": "CREATE_DEEP_ENTITY",
-        "correct": true
-      }
-    ]
-  },
-  {
     "question": "Your customer asks you about the advantages of the Model View Controller (MVC) design pattern used in SAPUI5. Which of the following answers do you provide?",
     "image": "",
     "answers": [
@@ -2635,28 +2612,6 @@
       {
         "text": "Allows the project team to decouple UI development from business logic development.",
         "correct": false
-      }
-    ]
-  },
-  {
-    "question": "You created a new catalog that contains some apps. You want to assign these apps to an existing role to provide authorization for the business users. How can you do this using the PFCG transaction?",
-    "image": "",
-    "answers": [
-      {
-        "text": "By adding the semantic object to the catalog and group",
-        "correct": false
-      },
-      {
-        "text": "By assigning the authorization profile for the catalog in the authorization tab",
-        "correct": false
-      },
-      {
-        "text": "By adding the tile and target mapping to the group",
-        "correct": false
-      },
-      {
-        "text": "By adding the catalog to the menu tab of the role",
-        "correct": true
       }
     ]
   },
@@ -4128,28 +4083,6 @@
       },
       {
         "text": "UI.headerInfo",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "question": "Which function must be called inside a control Renderer to add the control ID to the DOM tree and support eventing?",
-    "image": "",
-    "answers": [
-      {
-        "text": "writeIcon",
-        "correct": false
-      },
-      {
-        "text": "write",
-        "correct": false
-      },
-      {
-        "text": "writeClasses",
-        "correct": false
-      },
-      {
-        "text": "writeControlData",
         "correct": true
       }
     ]
@@ -5643,28 +5576,6 @@
     ]
   },
   {
-    "question": "What are the lifecycle events of an SAPUI5 view controller?",
-    "image": "",
-    "answers": [
-      {
-        "text": "onAfterRendering",
-        "correct": true
-      },
-      {
-        "text": "onRendering",
-        "correct": false
-      },
-      {
-        "text": "onBeforeEntry",
-        "correct": false
-      },
-      {
-        "text": "onExit",
-        "correct": true
-      }
-    ]
-  },
-  {
     "question": "You develop an SAPUI5 app that can be extended. To allow your customer to customize notifications, you set up a hook method. What activities are required to set up a hook method?",
     "image": "",
     "answers": [
@@ -6300,28 +6211,6 @@
       },
       {
         "text": "Clone",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "question": "You created a new catalog that contains some apps. You want to assign these apps to an existing role to provide authorization for the business users. How can you do this using the PFCG transaction? ",
-    "image": "",
-    "answers": [
-      {
-        "text": "By assigning the authorization profile for the catalog in the authorization tab.",
-        "correct": false
-      },
-      {
-        "text": "By adding the catalog to the menu tab of the role",
-        "correct": false
-      },
-      {
-        "text": "By adding the tile and target mapping to the group",
-        "correct": true
-      },
-      {
-        "text": "By adding the semantic object to the catalog and group",
         "correct": false
       }
     ]
